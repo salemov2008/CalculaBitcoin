@@ -1,4 +1,4 @@
-def telaInicial():
+def telainicial():
     print("Vidente de rendimento de Bitcoin")
 
 def calculadora():
@@ -6,11 +6,11 @@ def calculadora():
     meses = int(input("Meses: "))
     return parcela, meses
 
-def resultado(parcela, meses):
-    resultado = parcela * meses
+def calculo(valor1, valor2):
+    resultado = valor1 * valor2
     print(f"{resultado:.2f}")
     return resultado
 
-telaInicial()
-parcela, meses = calculadora()
-resultado(parcela, meses)
+telainicial()
+ValorParcela, QuantidadeMeses = calculadora()
+calculo(ValorParcela, QuantidadeMeses)
